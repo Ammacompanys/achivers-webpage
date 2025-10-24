@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+table {
+  width: 80%;
+  border-collapse: collapse; /* Merge cell borders */
+  margin: 20px auto;          /* Center the table */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+th, td {
+  border: 1px solid #333;   /* Border around cells */
+  padding: 10px;             /* Space inside cells */
+  text-align: center;        /* Center text */
+}
+
+th {
+  background-color: #4CAF50; /* Header color */
+  color: white;               /* Header text color */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Stripe effect */
+}
